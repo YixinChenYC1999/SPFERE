@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chen2026spfere"
+version = "1.0.0"
+description = "SPFERE: Semi-synchronous Power-aware and Fairness-regulated FEL framework"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Yixin Chen", email = "ychen6@students.towson.edu" }]
+keywords = ["federated-learning", "edge", "fairness", "spfere"]
+
+dependencies = [
+  "torch>=2.5",
+  "torchvision",
+  "pandas",
+  "numpy",
+  "scipy",
+  "wandb",
+]
+
+[project.urls]
+Homepage = "https://github.com/YixinChenYC1999/SPFERE"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["chen2026spfere*"]
+
+[tool.setuptools.package-data]
+"chen2026spfere.lstm" = ["*.pt"]
