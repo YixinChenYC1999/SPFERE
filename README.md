@@ -1,6 +1,6 @@
 # [TMC] SPFERE: Towards Practical Semi-synchronous On-device Federated Edge Learning with Fairness and Power Awareness
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) [![Python](https://img.shields.io/badge/python-3.10%2B-green.svg)]() [![Paper](https://img.shields.io/badge/Paper-Available-lightgrey)](#citation)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](#license) [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)]() [![Paper](https://img.shields.io/badge/Paper-Available-blue)](https://doi.org/10.1109/TMC.2025.3649621)
 
 ## Overview
 
@@ -10,7 +10,9 @@ This repository contains the source code and minimal usage examples supporting o
 >
 > Yixin Chen, Yifan Guo and Wei Yu
 > 
-> Accepted in IEEE TRANSACTIONS ON MOBILE COMPUTING
+> Accepted in IEEE Transactions on Mobile Computing
+>
+> DOI: [https://doi.org/10.1109/TMC.2025.3649621](https://doi.org/10.1109/TMC.2025.3649621)
 
 This work focuses on **a semi-synchronous fairness-and-power-aware FEL framework with a co-design for learning and communication**, and proposes **SPFERE**, a <ins>S</ins>emi-synchronous <ins>P</ins>ower-aware and <ins>F</ins>airn<ins>E</ins>ss-<ins>R</ins>egulated <ins>E</ins>ngine, designed for power-constrained edge environments and implemented on both a real-world edge testbed and a simulation platform to support asynchronous model updating, power management, and fairness-aware model aggregation.
 
@@ -227,8 +229,14 @@ If you use this code or data in your research, please cite our paper:
 
 ```
 @ARTICLE{chen2026spfere,
-  author = {Yixin Chen, Yifan Guo and Wei Yu},
-  title = {{SPFERE: Towards Practical Semi-synchronous On-device Federated Edge Learning with Fairness and Power Awareness}},
-  journal={IEEE Transactions on Mobile Computing}
+  author={Chen, Yixin and Guo, Yifan and Yu, Wei},
+  journal={IEEE Transactions on Mobile Computing}, 
+  title={SPFERE: Towards Practical Semi-Synchronous On-Device Federated Edge Learning With Fairness and Power Awareness}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-18},
+  keywords={Training;Computational modeling;Protocols;Servers;Data models;Performance evaluation;Mobile computing;Estimation;Convergence;Power system management;Fairness-aware model aggregation;federated edge learning;learning and communication co-design;power management;semi-synchronous on-device training},
+  doi={10.1109/TMC.2025.3649621}
 }
 ```
