@@ -231,12 +231,12 @@ If you use this code or data in your research, please cite our paper:
 @ARTICLE{chen2026spfere,
   author={Chen, Yixin and Guo, Yifan and Yu, Wei},
   journal={IEEE Transactions on Mobile Computing}, 
-  title={SPFERE: Towards Practical Semi-Synchronous On-Device Federated Edge Learning With Fairness and Power Awareness}, 
-  year={2025},
-  volume={},
-  number={},
-  pages={1-18},
-  keywords={Training;Computational modeling;Protocols;Servers;Data models;Performance evaluation;Mobile computing;Estimation;Convergence;Power system management;Fairness-aware model aggregation;federated edge learning;learning and communication co-design;power management;semi-synchronous on-device training},
-  doi={10.1109/TMC.2025.3649621}
-}
+  title={SPFERE: Toward Practical Semi-Synchronous On-Device Federated Edge Learning With Fairness and Power Awareness}, 
+  year={2026},
+  volume={25},
+  number={6},
+  pages={8611-8628},
+  keywords={Training;Computational modeling;Protocols;Servers;Data models;Performance evaluation;Mobile computing;Estimation;Convergence;Power system management;Federated edge learning;semi-synchronous on-device training;learning and communication co-design;power management;fairness-aware model aggregation},
+  doi={10.1109/TMC.2025.3649621}}
+
 ```
